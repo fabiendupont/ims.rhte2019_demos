@@ -3,7 +3,7 @@
   version: master
   name: ims.manageiq_vm_snapshot
 - src: https://github.com/fdupont-redhat/ims.postmigration-convert2rhel.git
-  version: master
+  version: summit_2020
   name: ims.postmigration-convert2rhel
 - src: https://github.com/fdupont-redhat/ims.postmigration-leapp.git
   version: master
