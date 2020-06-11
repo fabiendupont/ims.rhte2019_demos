@@ -11,3 +11,6 @@
 - src: https://github.com/fdupont-redhat/ims.premigration-force_nic_names.git
   version: master
   name: ims.premigration-force_nic_names
+- src: https://github.com/fdupont-redhat/ims.premigration-windows.git
+  version: master
+  name: ims.premigration-windows

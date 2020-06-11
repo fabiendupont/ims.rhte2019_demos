@@ -13,7 +13,7 @@ This playbook does 2 things:
 
 The playbook depends on a role named [ims.premigration-force_nic_names](https://github.com/fdupont-redhat/ims.premigration-force_nic_names.git)
 
-## Post-migration - Convert2RHEL:
+## Post-migration - Convert2RHEL
 
 This playbook converts the virtual machine operating system from CentOS or Oracle Linux to Red Hat Enterprise Linux.
 During a migration, we can add it as post-migration playbook and the virtual machine will be converted.
@@ -27,6 +27,14 @@ The playbook requires some variables to be set:
 
 During the conversion, the operating system is protected by a snapshot. It is created as soon as the playbook starts and
 can be used to rollback.
+
+## Pre-migration - Windows
+
+This playbook configures the Windows virtual machine for migration.
+The only variables that you may want to customize are the ones configuring
+the Ansible WinRM connection.See
+[Windows Remote Management > Inventory Options](https://docs.ansible.com/ansible/latest/user_guide/windows_winrm.html#inventory-options)
+
 
 ## Post-migration - Leapp
 
