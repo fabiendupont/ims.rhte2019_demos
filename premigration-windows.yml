@@ -4,4 +4,4 @@
   vars:
     ansible_connection: winrm
   roles:
-    - ims.premigration-windows
+    - fdupont_redhat.ims_premigration_windows
